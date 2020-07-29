@@ -1,0 +1,31 @@
+{
+  "name": "davidlacarta",
+  "version": "1.0.0",
+  "description": "Personal site with terminal emulator",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run develop",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "keywords": [
+    "terminal",
+    "emulator",
+    "profile"
+  ],
+  "author": "David Lacarta",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/core": "^10.0.14",
+    "@emotion/styled": "^10.0.14",
+    "gatsby": "^2.13.12",
+    "gatsby-plugin-manifest": "^2.2.3",
+    "gatsby-plugin-offline": "^2.2.4",
+    "gatsby-plugin-react-helmet": "^3.1.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1"
+  }
+}
